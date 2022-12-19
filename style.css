@@ -44,7 +44,7 @@ body{
     "fiveday fiveday"
     "feelslike humidity";
     gap: var(--spacing-regular);
-    position: absolute;
+    /* position: absolute; */
    
 }
 
@@ -97,10 +97,10 @@ body{
     
 }
 
-#hourly-forecast .hourly-container .temp{
+/* #hourly-forecast .hourly-container .temp{
 
 
-}
+} */
 
 #hourly-forecast .hourly-container .icon{
     height: 100px;
@@ -184,15 +184,18 @@ body{
     }
     
 }
+
+
+
 body {
-	margin: 0;
-	padding: 0;
+	/* margin: 0;
+	padding: 0; */
 	background-color: #0e6cc4;
-	overflow-x: hidden;
-	overflow-y: hidden;
+	/* overflow-x: hidden;
+	overflow-y: hidden; */
 }
 
-/*waves****************************/
+/* waves****************************/
 
 .box {
 	position: fixed;
@@ -283,9 +286,9 @@ body {
 	width: 100px;
 	height: 100px;
 	margin: 0 5px;
-}
+} */
 
-/*Animation*/
+/* Animation
 .icon:nth-child(2) img {
 	-webkit-animation-delay: 0.2s;
 	animation-delay: 0.2s;
